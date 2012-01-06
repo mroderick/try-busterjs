@@ -19,11 +19,9 @@ Prerequisites
 Getting started - building the VM
 -------------------
 
-<code>
 	git clone https://github.com/mroderick/try-busterjs.git
 	cd try-busterjs
 	vagrant up
-</code>
 
 Now go watch some videos on YouTube, while we bake your new VM.
 
