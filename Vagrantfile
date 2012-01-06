@@ -24,4 +24,9 @@ Vagrant::Config.run do |config|
     # chef.log_level = "debug"
     chef.add_recipe "try_buster"
   end
+  
+  # install buster
+  config.vm.provision :shell do |shell|
+    shell.inline = "npm install -g buster"
+  end
 end
