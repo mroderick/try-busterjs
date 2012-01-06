@@ -34,25 +34,22 @@ Running tests
 Once the VM has been built locally, you can log in to it and run tests. For this you will need two ssh connections to the VirtualBox
 
 First ssh session for running Buster's serverStart Buster's server in the virtual machine.
-<code>
+
 	vagrant ssh
 	buster server
-</code>
 
 Now you can capture your favourite browsers by pointing them at http://localhost:1111/capture
 
 In the second ssh session we run the test suite.
-<code>
+
 	vagrant ssh
 	cd /vagrant/project
 	buster test
-</code>
 
 You should see something like this
-<code>
+
 	Safari 5.1.2 OS X: ..
 	1 test case, 2 tests, 2 assertions, 0 failures, 0 errors, 0 timeouts
-</code>
 
 Play!
 -------------------
@@ -62,12 +59,13 @@ Now that you have a VM capable of running BusterJS, it's time to for you to expl
 To edit the files in the project, you can just use your favourite editor(s). The root of the project gets mapped into the VM as /vagrant, where buster can work with the files.
 
 Ex:
-<code>
+
+<pre>
 	| Host                 | Guest            |
 	|----------------------|------------------|
 	| try-busterjs         | /vagrant         |
 	| try-busterjs/project | /vagrant/project |
-</code>
+</pre>
 
 I am sure you get the idea.
 
