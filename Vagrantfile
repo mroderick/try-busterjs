@@ -12,8 +12,8 @@ Vagrant::Config.run do |config|
   config.ssh.max_tries = 150
   
   # Forward guest port 1111 to host port 1111 and name the mapping "buster"
-  config.vm.forward_port("buster", 1111, 1111)
-    
+  #config.vm.forward_port("buster", 1111, 1111)
+  config.vm.forward_port 1111, 1111 
   # Enable and configure the chef solo provisioner
   config.vm.provision :chef_solo do |chef|
     
