@@ -71,7 +71,7 @@ More
 -------------------
 
 * [BusterJS Documentation](http://busterjs.org/docs/)
-* Come say hello in #buster on irc.freenode.net
+* Come say hello in #buster.js on irc.freenode.net
 * [@cjno's book on TDD with JavaScript](http://tddjs.com/)
 
 License
