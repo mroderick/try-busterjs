@@ -3,11 +3,12 @@
 var config = module.exports;
 
 config["Try BusterJS tests"] = {
+    rootPath: "../",
     env: "browser",
     sources: [
-        "../src/try-buster.js"
+        "src/try-buster.js"
     ],
     tests: [
-        "*-test.js"
+        "test/*-test.js"
     ]
 };
