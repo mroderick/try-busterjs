@@ -1,4 +1,4 @@
-Try BusterJS!
+Try BusterJS! [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 ===================
 
 This project aims to provide you with an easy way of trying out [BusterJS](http://busterjs.org/), to see if it's to your liking.
